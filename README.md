@@ -22,6 +22,7 @@ This section *may* help if you have a laptop with hybrid graphics and want to en
 The following commands may help you figure out which GPU is currently being used to render graphics:
 
 `glxinfo|egrep "OpenGL vendor|OpenGL renderer*"`
+
 `glxheads`
 
 In order to enable a discrete AMD GPU, you may need to modify the line containing `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"` in `/etc/default/grub` to:
@@ -40,4 +41,6 @@ but that will probably not work, so instead try prefixing the command for which 
 
 `DRI_PRIME=1 command`
 
-or set the environment variable globally.
+or set the environment variable globally. To test that it works, do
+
+`DRI_PRIME=1 glxheads`
