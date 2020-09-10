@@ -29,7 +29,7 @@ In order to enable a discrete AMD GPU, you may need to modify the line containin
 
 `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash radeon.modeset=1"`
 
-In order to check the status of the graphics cards, do
+and run `update-grub` and reboot afterwards. In order to check the status of the graphics cards, do
 
 `sudo cat /sys/kernel/debug/vgaswitcheroo/switch`
 
