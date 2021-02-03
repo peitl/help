@@ -1,6 +1,13 @@
 # Help
 A collection of various simple GNU/Linux commands and workflows that I found useful at some point.
 
+## Desktop Environments
+
+Place `.desktop` files in `$XDG_CONFIG_HOME/autostart` (usually `~/.config/autostart`).
+If a desktop file doesn't load, check that it validates with `desktop-file-validate`.
+
+In order to prevent the screen from going blank too early, configure xscreensaver with `xscreensaver-demo`.
+
 ## LibreOffice Calc
 
 For alternating row color, use `Format -> Conditional Formatting` with `ISODD(ROW())` and `ISEVEN(ROW())` and custom formats.
