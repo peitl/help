@@ -24,7 +24,7 @@ Convert an `ogg` video into `mp4`, starting at the first second and going until 
 
 Convert an image into a video (`-loop 1`), adding fade-out (parameters are start frame and duration in frames).
 
-ffmpeg -loop 1 -t 5 -i image.png -vf "fade=out:75:25" output.mp4
+`ffmpeg -loop 1 -t 5 -i image.png -vf "fade=out:75:25" output.mp4`
 
 ## GPU
 
