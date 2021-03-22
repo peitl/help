@@ -22,6 +22,10 @@ Convert an `ogg` video into `mp4`, starting at the first second and going until 
 
 `ffmpeg -i input.ogg -ss 00:00:01 -to 00:00:05 -vf scale=-1:720 output.mp4`
 
+Convert an image into a video (`-loop 1`), adding fade-out (parameters are start frame and duration in frames).
+
+ffmpeg -loop 1 -t 5 -i image.png -vf "fade=out:75:25" output.mp4
+
 ## GPU
 
 This section *may* help if you have a laptop with hybrid graphics and want to enforce the use of the discrete GPU.
