@@ -1,6 +1,11 @@
 # Help
 A collection of various simple GNU/Linux commands and workflows that I found useful at some point.
 
+## LaTeX
+
+To use `hyperref` with the `llncs` style, load the package with `\usepackage[bookmarks=false]{hyperref}`.
+Also, `hyperref` should generally be loaded last if possible.
+
 ## Desktop Environments
 
 Place `.desktop` files in `$XDG_CONFIG_HOME/autostart` (usually `~/.config/autostart`).
