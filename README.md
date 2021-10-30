@@ -9,9 +9,9 @@ Also, `hyperref` should generally be loaded last if possible.
 ## Unicode input
 
 In order to input unicode characters in vim, in insert mode press `CTRL+V` followed by `u` and the hex code of the character.
-For instance, for `∃` type `CTRL+V``u``2203`.
+For instance, for `∃` type `CTRL+V` `u` `2203`.
 In other programs on Linux, `CTRL+SHIFT+u` followed by the hex code may work.
-Some characters I commonly use can be copied from below:
+Some characters I commonly use can be copied from below (for Greek letters an easy solution is to enable Greek keyboard):
 
 `∀ ∃ α² ± β³ ≤ ε⁴`
 
