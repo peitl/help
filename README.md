@@ -6,6 +6,15 @@ A collection of various simple GNU/Linux commands and workflows that I found use
 To use `hyperref` with the `llncs` style, load the package with `\usepackage[bookmarks=false]{hyperref}`.
 Also, `hyperref` should generally be loaded last if possible.
 
+## Unicode input
+
+In order to input unicode characters in vim, in insert mode press `CTRL+V` followed by `u` and the hex code of the character.
+For instance, for `∃` type `CTRL+V``u``2203`.
+In other programs on Linux, `CTRL+SHIFT+u` followed by the hex code may work.
+Some characters I commonly use can be copied from below:
+
+`∀ ∃ α² ± β³ ≤ ε⁴`
+
 ## Desktop Environments
 
 Place `.desktop` files in `$XDG_CONFIG_HOME/autostart` (usually `~/.config/autostart`).
