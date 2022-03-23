@@ -13,7 +13,7 @@ For instance, for `∃` type `CTRL+V` `u` `2203`.
 In other programs on Linux, `CTRL+SHIFT+u` followed by the hex code may work.
 Some characters I commonly use can be copied from below (for Greek letters an easy solution is to enable Greek keyboard):
 
-`∀ ∃ α² ± β³ ≤ ε⁴`
+`∀ ∃ α² ± β³ ≤ ε⁴ ∈ ∧ ∨ ∩ ∪ ¬`
 
 ## Desktop Environments
 
