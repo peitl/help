@@ -1,6 +1,14 @@
 # Help
 A collection of various simple GNU/Linux commands and workflows that I found useful at some point.
 
+## Thunderbird
+
+To export message filters, locate the `msgFilterRules.dat` file, should be under `~/snap/thunderbird/`, so run
+
+```
+find "~snap/thunderbird/" -name msgFilterRules.dat
+```
+
 ## LaTeX
 
 To use `hyperref` with the `llncs` style, load the package with `\usepackage[bookmarks=false]{hyperref}`.
