@@ -2,11 +2,12 @@ PANDOC = pandoc
 SRC = README.md
 OUT = index.html
 
-$(OUT): $(SRC)
+$(OUT): $(SRC) style.css
 	$(PANDOC) $(SRC) \
-		--standalone \
+		--embed-resources --standalone \
 		--metadata title="Help" \
 		--highlight-style=tango \
+		--css style.css \
 		-o $(OUT)
 
 clean:
