@@ -6,8 +6,18 @@ A collection of various simple GNU/Linux commands and workflows that I found use
 To export message filters, locate the `msgFilterRules.dat` file, should be under `~/snap/thunderbird/`, so run
 
 ```
-find "~snap/thunderbird/" -name msgFilterRules.dat
+find ~/snap/thunderbird/ -name msgFilterRules.dat
 ```
+
+## Vim
+
+Replace with newline (use `\n` in the replacement): `:%s/,/\n/g`
+
+Delete all blank lines: `:%g/^$/d`
+
+Open file whose path is under the cursor: `gf`
+
+Increment / decrement the number under the cursor: `CTRL+A` / `CTRL+X`
 
 ## LaTeX
 
