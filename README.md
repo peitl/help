@@ -21,7 +21,29 @@ For instance, for `∃` type `CTRL+V` `u` `2203`.
 In other programs on Linux, `CTRL+SHIFT+u` followed by the hex code may work.
 Some characters I commonly use can be copied from below (for Greek letters an easy solution is to enable Greek keyboard):
 
-`∀ ∃ α² ± β³ ≤ ε⁴ ≥ ≡ ∈ ∧ ∨ ∩ ∪ ¬ ⇔ ⇒ ↔ →`
+Logic and quantifiers: `∀ ∃ ¬ ∧ ∨ ⊤ ⊥ ⊢ ⊨ ⊬ ⊭ ⊕`
+
+Relations: `≤ ≥ ≡ ≠ ≈ ≜ ≝ ≟ ±`
+
+Sets: `∈ ∉ ∅ ∩ ∪ ⊆ ⊇ ⊂ ⊃ ⊗`
+
+Arrows: `→ ↔ ⇒ ⇔ ⇐ ⇏ ⇍ ↦ ↑ ↓ ⇑ ⇓ ⇝`
+
+Greek lowercase: `α β γ δ ε ζ η θ ι κ λ μ ν ξ π ρ σ τ υ φ χ ψ ω`
+
+Greek uppercase: `Γ Δ Θ Λ Π Σ Φ Ψ Ω`
+
+Number sets: `ℕ ℤ ℚ ℝ ℂ ℙ`
+
+Math: `∑ ∏ √ ∞ ∂ ∇ ∫ · × ÷ 𝒪`
+
+Brackets: `⌈ ⌉ ⌊ ⌋ ⟨ ⟩`
+
+Superscripts: `⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹`
+
+Subscripts: `₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉`
+
+Primes: `′ ″`
 
 ## Desktop Environments
 
