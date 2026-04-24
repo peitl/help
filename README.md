@@ -62,6 +62,13 @@ If a desktop file doesn't load, check that it validates with `desktop-file-valid
 
 In order to prevent the screen from going blank too early, configure xscreensaver with `xscreensaver-demo`.
 
+To change icons of directories shown in PCManFM-QT, put a `.directory` file with the contents
+```ini
+[Desktop Entry]
+Icon=icon-name
+```
+Browse icon names available in the current icon theme with `gtk3-icon-browsers`, or look in `/usr/share/icons/`.
+
 ## LibreOffice Calc
 
 For alternating row color, use `Format -> Conditional Formatting` with `ISODD(ROW())` and `ISEVEN(ROW())` and custom formats.
